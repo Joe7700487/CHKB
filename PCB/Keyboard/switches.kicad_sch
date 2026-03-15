@@ -1,0 +1,10246 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "08cb5b8d-46fc-4dc0-a020-cbb561b5deb2")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Device:D_Small"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at -1.27 2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "D_Small"
+				(at -3.81 -2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Diode, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Device" "D"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "D_Small_0_1"
+				(polyline
+					(pts
+						(xy -0.762 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.762 -1.016) (xy -0.762 1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.016) (xy -0.762 0) (xy 0.762 1.016) (xy 0.762 -1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "D_Small_1_1"
+				(pin passive line
+					(at -2.54 0 0)
+					(length 1.778)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 1.778)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "marbastlib-mx:MX_SW_solder"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "MX"
+				(at 3.048 1.016 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "MX_SW_solder"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "switch normally-open pushbutton push-button"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MX_SW_solder_0_1"
+				(polyline
+					(pts
+						(xy -2.54 2.54) (xy -1.524 1.524) (xy -1.524 1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -1.1684 1.1684)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 2.54) (xy 2.54 -0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 1.016) (xy 2.032 2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.143 -1.1938)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.524 -1.524) (xy 2.54 -2.54) (xy 2.54 -2.54) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -2.54 2.54 0)
+					(length 0)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -2.54 180)
+					(length 0)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "marbastlib-mx:MX_stab"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "S"
+				(at -5.08 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "MX_stab"
+				(at -5.08 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "PCM_marbastlib-mx:STAB_MX_P_6.25u"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Cherry MX-style stabilizer"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cherry mx stabilizer stab"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MX_stab_0_1"
+				(rectangle
+					(start -5.08 1.27)
+					(end -2.54 -2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -5.08 -1.524)
+					(end -2.54 -2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -4.826 2.794)
+					(end -2.794 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -4.064 1.27)
+					(end -3.556 2.794)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -4.064 -1.778)
+					(end 4.064 -2.286)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -4.064 -2.286)
+					(end -3.556 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 2.54 1.27)
+					(end 5.08 -2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 2.54 -1.524)
+					(end 5.08 -2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 2.794 2.794)
+					(end 4.826 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.556 1.27)
+					(end 4.064 2.794)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 4.064 -2.286)
+					(end 3.556 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(symbol
+		(lib_id "marbastlib-mx:MX_SW_solder")
+		(at 165.1 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "018c56ce-ea27-4151-99b1-41d844235f84")
+		(property "Reference" "MX39"
+			(at 165.1 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MX_SW_solder"
+			(at 165.1 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "marbastlib-mx:SW_MX_1u"
+			(at 165.1 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 165.1 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 165.1 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bc21d397-39ec-4b9f-aeaf-2a7f661528fa")
+		)
+		(pin "2"
+			(uuid "c7dc81ce-4f11-4c88-ba99-65e03de8188b")
+		)
+		(instances
+			(project "Keyboard"
+				(path "/4d291fcf-fdf2-46ba-aa57-60bc75f9cc32/21c10462-4c04-4e31-8492-80b8e198b101"
+					(reference "MX39")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "marbastlib-mx:MX_SW_solder")
+		(at 76.2 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "025122c5-51da-4984-9b4e-8352bca661c4")
+		(property "Reference" "MX58"
+			(at 76.2 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MX_SW_solder"
+			(at 76.2 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "marbastlib-mx:SW_MX_1u"
+			(at 76.2 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 76.2 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 76.2 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "363b3bb2-edd5-4a17-8ac5-8cd888db4999")
+		)
+		(pin "2"
+			(uuid "d38f76fd-d60b-4bd7-9758-ec260e4d3cd1")
+		)
+		(instances
+			(project "Keyboard"
+				(path "/4d291fcf-fdf2-46ba-aa57-60bc75f9cc32/21c10462-4c04-4e31-8492-80b8e198b101"
+					(reference "MX58")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "marbastlib-mx:MX_SW_solder")
+		(at 76.2 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0388e261-d9e9-400b-9483-1d90968bc380")
+		(property "Reference" "MX32"
+			(at 76.2 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MX_SW_solder"
+			(at 76.2 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "marbastlib-mx:SW_MX_1u"
+			(at 76.2 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 76.2 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 76.2 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "65804ddb-b229-40b7-ac55-7cd96fd3f350")
+		)
+		(pin "2"
+			(uuid "28632378-ed99-4506-bb38-a9ad16ebb452")
+		)
+		(instances
+			(project "Keyboard"
+				(path "/4d291fcf-fdf2-46ba-aa57-60bc75f9cc32/21c10462-4c04-4e31-8492-80b8e198b101"
+					(reference "MX32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Small")
+		(at 129.54 93.98 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "045d0d42-ee37-4e88-8265-4fc32ec3edb0")
+		(property "Reference" "D49"
+			(at 132.08 92.7099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D_Small"
+			(at 132.08 95.2499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 129.54 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 129.54 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode, small symbol"
+			(at 129.54 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 129.54 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 129.54 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "50cf81ba-be43-42a7-805a-bc9e56101643")
+		)
+		(pin "2"
+			(uuid "beff630b-68be-4431-b0ef-28bd7dc5d97f")
+		)
+		(instances
+			(project "Keyboard"
+				(path "/4d291fcf-fdf2-46ba-aa57-60bc75f9cc32/21c10462-4c04-4e31-8492-80b8e198b101"
+					(reference "D49")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Small")
+		(at 116.84 58.42 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "09b37b71-f739-4b2f-b92c-a3974db9a0d9")
+		(property "Reference" "D21"
+			(at 119.38 57.1499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D_Small"
+			(at 119.38 59.6899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 116.84 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 116.84 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode, small symbol"
+			(at 116.84 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 116.84 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 116.84 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7d32cc60-f5d3-48a6-a087-f1055f4df8ff")
+		)
+		(pin "2"
+			(uuid "47168bc0-aa68-4b18-84a9-afaa79883ead")
+		)
+		(instances
+			(project "Keyboard"
+				(path "/4d291fcf-fdf2-46ba-aa57-60bc75f9cc32/21c10462-4c04-4e31-8492-80b8e198b101"
+					(reference "D21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "marbastlib-mx:MX_SW_solder")
+		(at 50.8 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0af6f018-eb6e-4fe6-a73e-469ab06741ec")
+		(property "Reference" "MX1"
+			(at 50.8 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MX_SW_solder"
+			(at 50.8 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "marbastlib-mx:SW_MX_1u"
+			(at 50.8 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 50.8 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 50.8 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "717ecdd6-af53-4796-9f07-a495f6ca23a1")
+		)
+		(pin "2"
+			(uuid "d309448d-0569-4047-a549-575cea269330")
+		)
+		(instances
+			(project ""
+				(path "/4d291fcf-fdf2-46ba-aa57-60bc75f9cc32/21c10462-4c04-4e31-8492-80b8e198b101"
+					(reference "MX1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Small")
+		(at 180.34 93.98 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0e7dbcfe-9594-4407-b650-9f571bfff3b9")
+		(property "Reference" "D53"
+			(at 182.88 92.7099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D_Small"
+			(at 182.88 95.2499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 180.34 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 180.34 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode, small symbol"
+			(at 180.34 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 180.34 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 180.34 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e8cff20a-fb70-4bc1-85a3-7c34b77ceb24")
+		)
+		(pin "2"
+			(uuid "e5c57cbc-7ffe-4593-a831-ed163dec3635")
+		)
+		(instances
+			(project "Keyboard"
+				(path "/4d291fcf-fdf2-46ba-aa57-60bc75f9cc32/21c10462-4c04-4e31-8492-80b8e198b101"
+					(reference "D53")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "marbastlib-mx:MX_SW_solder")
+		(at 76.2 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0fc5fc32-113e-4819-9753-5e66d3b9e104")
+		(property "Reference" "MX3"
+			(at 76.2 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MX_SW_solder"
+			(at 76.2 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "marbastlib-mx:SW_MX_1u"
+			(at 76.2 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 76.2 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 76.2 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3a03a292-809f-4519-9d37-72617a76f5ac")
+		)
+		(pin "2"
+			(uuid "32b81c7d-90d0-451e-8443-70159d5d6edf")
+		)
+		(instances
+			(project "Keyboard"
+				(path "/4d291fcf-fdf2-46ba-aa57-60bc75f9cc32/21c10462-4c04-4e31-8492-80b8e198b101"
+					(reference "MX3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Small")
+		(at 193.04 93.98 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "104bc334-4c1c-4e8c-9c2d-f80853ceab36")
+		(property "Reference" "D54"
+			(at 195.58 92.7099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D_Small"
+			(at 195.58 95.2499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 193.04 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 193.04 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode, small symbol"
+			(at 193.04 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 193.04 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 193.04 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7c4e2de3-6ffe-463a-8dab-b138d1a1d171")
+		)
+		(pin "2"
+			(uuid "613f34fa-6da2-466a-81aa-752d804a01d2")
+		)
+		(instances
+			(project "Keyboard"
+				(path "/4d291fcf-fdf2-46ba-aa57-60bc75f9cc32/21c10462-4c04-4e31-8492-80b8e198b101"
+					(reference "D54")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Small")
+		(at 142.24 40.64 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "10ac7fca-9bea-4576-8dbf-74a89969d770")
+		(property "Reference" "D8"
+			(at 144.78 39.3699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D_Small"
+			(at 144.78 41.9099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 142.24 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 142.24 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode, small symbol"
+			(at 142.24 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 142.24 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 142.24 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "31536a8a-e8f4-4d2a-a3f3-d5dfd2c6ffeb")
+		)
+		(pin "2"
+			(uuid "04476713-cbdb-44fa-933b-753baa667217")
+		)
+		(instances
+			(project "Keyboard"
+				(path "/4d291fcf-fdf2-46ba-aa57-60bc75f9cc32/21c10462-4c04-4e31-8492-80b8e198b101"
+					(reference "D8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Small")
+		(at 231.14 93.98 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "13b0e121-cdc9-4410-84bf-89ba00a15119")
+		(property "Reference" "D55"
+			(at 233.68 92.7099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D_Small"
+			(at 233.68 95.2499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 231.14 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 231.14 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode, small symbol"
+			(at 231.14 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 231.14 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 231.14 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d741c8d2-c542-46c9-b9f8-cc5db2fb046b")
+		)
+		(pin "2"
+			(uuid "584f85ec-1476-42cf-beb9-e513b475b951")
+		)
+		(instances
+			(project "Keyboard"
+				(path "/4d291fcf-fdf2-46ba-aa57-60bc75f9cc32/21c10462-4c04-4e31-8492-80b8e198b101"
+					(reference "D55")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "marbastlib-mx:MX_SW_solder")
+		(at 177.8 53.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "16985b29-8618-4631-8728-f906ab238fef")
+		(property "Reference" "MX26"
+			(at 177.8 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MX_SW_solder"
+			(at 177.8 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "marbastlib-mx:SW_MX_1u"
+			(at 177.8 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 177.8 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 177.8 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fe30b595-2aec-4730-a2f7-5a6fbe71ef9a")
+		)
+		(pin "2"
+			(uuid "4f17aba6-d215-4c8a-97ac-eea62271ef41")
+		)
+		(instances
+			(project "Keyboard"
+				(path "/4d291fcf-fdf2-46ba-aa57-60bc75f9cc32/21c10462-4c04-4e31-8492-80b8e198b101"
+					(reference "MX26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "marbastlib-mx:MX_SW_solder")
+		(at 165.1 53.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "183fb6d8-cc04-45d6-abe3-f6aed75d369c")
+		(property "Reference" "MX25"
+			(at 165.1 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MX_SW_solder"
+			(at 165.1 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "marbastlib-mx:SW_MX_1u"
+			(at 165.1 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 165.1 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 165.1 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2fbe1c81-7188-4f84-acce-4131f56beb55")
+		)
+		(pin "2"
+			(uuid "d0acfd18-7152-43d3-b5b5-e0a16ffd9b22")
+		)
+		(instances
+			(project "Keyboard"
+				(path "/4d291fcf-fdf2-46ba-aa57-60bc75f9cc32/21c10462-4c04-4e31-8492-80b8e198b101"
+					(reference "MX25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Small")
+		(at 129.54 40.64 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "199d5937-473b-41bf-b630-079e757967db")
+		(property "Reference" "D7"
+			(at 132.08 39.3699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D_Small"
+			(at 132.08 41.9099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 129.54 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 129.54 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode, small symbol"
+			(at 129.54 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 129.54 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 129.54 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8223b148-a39d-4bbc-96d1-5633de9fc140")
+		)
+		(pin "2"
+			(uuid "04624bb6-3c02-46ac-bd72-891bd6cbce95")
+		)
+		(instances
+			(project "Keyboard"
+				(path "/4d291fcf-fdf2-46ba-aa57-60bc75f9cc32/21c10462-4c04-4e31-8492-80b8e198b101"
+					(reference "D7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "marbastlib-mx:MX_SW_solder")
+		(at 127 53.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1e568854-feee-4aa8-9113-7f7bb99bfd08")
+		(property "Reference" "MX22"
+			(at 127 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MX_SW_solder"
+			(at 127 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "marbastlib-mx:SW_MX_1u"
+			(at 127 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 127 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 127 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c6d43c37-6e5e-477f-8507-542eec81d1e2")
+		)
+		(pin "2"
+			(uuid "b5f27ddc-55c4-4686-8975-f7464cb0c82e")
+		)
+		(instances
+			(project "Keyboard"
+				(path "/4d291fcf-fdf2-46ba-aa57-60bc75f9cc32/21c10462-4c04-4e31-8492-80b8e198b101"
+					(reference "MX22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Small")
+		(at 218.44 40.64 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1e5ea430-27f0-4cc4-a991-9a2609fa61f8")
+		(property "Reference" "D14"
+			(at 220.98 39.3699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D_Small"
+			(at 220.98 41.9099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 218.44 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 218.44 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode, small symbol"
+			(at 218.44 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 218.44 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 218.44 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "76bae4a1-db73-4f11-ada9-760711602401")
+		)
+		(pin "2"
+			(uuid "6218108d-d861-45b4-a8ad-41c02261cead")
+		)
+		(instances
+			(project "Keyboard"
+				(path "/4d291fcf-fdf2-46ba-aa57-60bc75f9cc32/21c10462-4c04-4e31-8492-80b8e198b101"
+					(reference "D14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Small")
+		(at 116.84 76.2 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1e95555c-e0da-4ff3-aac1-44fd6e397287")
+		(property "Reference" "D35"
+			(at 119.38 74.9299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D_Small"
+			(at 119.38 77.4699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 116.84 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 116.84 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode, small symbol"
+			(at 116.84 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 116.84 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 116.84 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9215927e-e361-4a2c-be63-8dc9bafbf9cc")
+		)
+		(pin "2"
+			(uuid "0cb5bfd4-8b1b-4a6d-a974-31733fcfb2d9")
+		)
+		(instances
+			(project "Keyboard"
+				(path "/4d291fcf-fdf2-46ba-aa57-60bc75f9cc32/21c10462-4c04-4e31-8492-80b8e198b101"
+					(reference "D35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "marbastlib-mx:MX_stab")
+		(at 33.02 92.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1efef2d7-11f2-4780-9a86-7ce5a93c25d3")
+		(property "Reference" "S3"
+			(at 39.37 91.3129 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MX_stab"
+			(at 39.37 93.8529 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "marbastlib-mx:STAB_MX_2.25u"
+			(at 33.02 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 33.02 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Cherry MX-style stabilizer"
+			(at 33.02 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "Keyboard"
+				(path "/4d291fcf-fdf2-46ba-aa57-60bc75f9cc32/21c10462-4c04-4e31-8492-80b8e198b101"
+					(reference "S3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Small")
+		(at 53.34 58.42 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1f1cc4b7-a35d-4104-8efc-1822e88f4e38")
+		(property "Reference" "D16"
+			(at 55.88 57.1499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D_Small"
+			(at 55.88 59.6899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 53.34 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 53.34 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode, small symbol"
+			(at 53.34 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 53.34 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 53.34 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6d9e4b28-1b74-4a97-9895-ba71db29b8b3")
+		)
+		(pin "2"
+			(uuid "8e5ac7c2-9a71-44a2-9b65-a1eb9e42e4db")
+		)
+		(instances
+			(project "Keyboard"
+				(path "/4d291fcf-fdf2-46ba-aa57-60bc75f9cc32/21c10462-4c04-4e31-8492-80b8e198b101"
+					(reference "D16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Small")
+		(at 205.74 40.64 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "208a4fda-c905-4939-a332-462700ea4fb9")
+		(property "Reference" "D13"
+			(at 208.28 39.3699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D_Small"
+			(at 208.28 41.9099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 205.74 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 205.74 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode, small symbol"
+			(at 205.74 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 205.74 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 205.74 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d3cb8beb-7e16-4c5c-a892-3d4029814312")
+		)
+		(pin "2"
+			(uuid "f0597c53-6792-4f01-a858-442b642207d6")
+		)
+		(instances
+			(project "Keyboard"
+				(path "/4d291fcf-fdf2-46ba-aa57-60bc75f9cc32/21c10462-4c04-4e31-8492-80b8e198b101"
+					(reference "D13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "marbastlib-mx:MX_SW_solder")
+		(at 88.9 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "20aba959-59c8-498f-8776-4be6728ccdfc")
+		(property "Reference" "MX4"
+			(at 88.9 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MX_SW_solder"
+			(at 88.9 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "marbastlib-mx:SW_MX_1u"
+			(at 88.9 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 88.9 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 88.9 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "901b7e04-a4a9-40cc-9f96-7f6a1e6e4487")
+		)
+		(pin "2"
+			(uuid "4f9e168e-7860-4d3a-afc1-ac534371ed0c")
+		)
+		(instances
+			(project "Keyboard"
+				(path "/4d291fcf-fdf2-46ba-aa57-60bc75f9cc32/21c10462-4c04-4e31-8492-80b8e198b101"
+					(reference "MX4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "marbastlib-mx:MX_SW_solder")
+		(at 177.8 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "21691a2c-2dda-4f7d-b112-f4af6e538c59")
+		(property "Reference" "MX40"
+			(at 177.8 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MX_SW_solder"
+			(at 177.8 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "marbastlib-mx:SW_MX_1u"
+			(at 177.8 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 177.8 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 177.8 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d0803874-e9a5-44b4-a8ac-4057cdd32c76")
+		)
+		(pin "2"
+			(uuid "29251189-e5ab-4784-8e6f-db8c8e662ff8")
+		)
+		(instances
+			(project "Keyboard"
+				(path "/4d291fcf-fdf2-46ba-aa57-60bc75f9cc32/21c10462-4c04-4e31-8492-80b8e198b101"
+					(reference "MX40")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Small")
+		(at 53.34 111.76 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "21bf95ba-6abc-443b-993b-dcbaab785eac")
+		(property "Reference" "D56"
+			(at 55.88 110.4899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D_Small"
+			(at 55.88 113.0299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 53.34 111.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 53.34 111.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode, small symbol"
+			(at 53.34 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 53.34 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 53.34 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cb0dad0f-4bfb-4605-a5f3-1382194e5dd4")
+		)
+		(pin "2"
+			(uuid "88c306be-97f1-41af-9095-2e1e1ad2255d")
+		)
+		(instances
+			(project "Keyboard"
+				(path "/4d291fcf-fdf2-46ba-aa57-60bc75f9cc32/21c10462-4c04-4e31-8492-80b8e198b101"
+					(reference "D56")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "marbastlib-mx:MX_SW_solder")
+		(at 228.6 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "266d5ede-17f1-4caf-9c8e-ff88913ec52f")
+		(property "Reference" "MX15"
+			(at 228.6 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MX_SW_solder"
+			(at 228.6 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "marbastlib-mx:SW_MX_1u"
+			(at 228.6 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 228.6 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 228.6 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c000db58-0109-496f-ac81-823c10cd6e60")
+		)
+		(pin "2"
+			(uuid "edd9554c-fc6d-43b9-8090-b9041fec9723")
+		)
+		(instances
+			(project "Keyboard"
+				(path "/4d291fcf-fdf2-46ba-aa57-60bc75f9cc32/21c10462-4c04-4e31-8492-80b8e198b101"
+					(reference "MX15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "marbastlib-mx:MX_SW_solder")
+		(at 50.8 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2678be54-3d78-4252-99d6-110f3ce9d30a")
+		(property "Reference" "MX30"
+			(at 50.8 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MX_SW_solder"
+			(at 50.8 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "marbastlib-mx:SW_MX_1u"
+			(at 50.8 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 50.8 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 50.8 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6dd2adb4-cb14-45de-b48a-7122bdc1f4d5")
+		)
+		(pin "2"
+			(uuid "990a0cea-55e8-4d01-bb91-b5d8f3b8997a")
+		)
+		(instances
+			(project "Keyboard"
+				(path "/4d291fcf-fdf2-46ba-aa57-60bc75f9cc32/21c10462-4c04-4e31-8492-80b8e198b101"
+					(reference "MX30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Small")
+		(at 91.44 40.64 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "268b9d38-ad1c-4bff-bc8d-dbb0d6a4dbc0")
+		(property "Reference" "D4"
+			(at 93.98 39.3699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D_Small"
+			(at 93.98 41.9099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 91.44 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 91.44 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode, small symbol"
+			(at 91.44 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 91.44 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 91.44 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cd5005d4-498b-4a2d-b17d-7c3202289c8d")
+		)
+		(pin "2"
+			(uuid "c84bd371-838e-45ed-b0b7-520e8888df3b")
+		)
+		(instances
+			(project "Keyboard"
+				(path "/4d291fcf-fdf2-46ba-aa57-60bc75f9cc32/21c10462-4c04-4e31-8492-80b8e198b101"
+					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Small")
+		(at 78.74 58.42 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "28c0101c-af95-4adc-9924-2841d4f687bb")
+		(property "Reference" "D18"
+			(at 81.28 57.1499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D_Small"
+			(at 81.28 59.6899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 78.74 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 78.74 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode, small symbol"
+			(at 78.74 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 78.74 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 78.74 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ade27738-92ed-4a56-b0f7-e691c1297825")
+		)
+		(pin "2"
+			(uuid "b3d86821-4996-4a48-b868-312d9b866676")
+		)
+		(instances
+			(project "Keyboard"
+				(path "/4d291fcf-fdf2-46ba-aa57-60bc75f9cc32/21c10462-4c04-4e31-8492-80b8e198b101"
+					(reference "D18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "marbastlib-mx:MX_SW_solder")
+		(at 190.5 53.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "32766f07-b61b-49ea-94a6-05b24d5d3a57")
+		(property "Reference" "MX27"
+			(at 190.5 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MX_SW_solder"
+			(at 190.5 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "marbastlib-mx:SW_MX_1u"
+			(at 190.5 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 190.5 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 190.5 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1fde41e8-ba08-4327-b6ac-741b6fd0f638")
+		)
+		(pin "2"
+			(uuid "3956fd65-83de-4021-bdb0-f544418f6773")
+		)
+		(instances
+			(project "Keyboard"
+				(path "/4d291fcf-fdf2-46ba-aa57-60bc75f9cc32/21c10462-4c04-4e31-8492-80b8e198b101"
+					(reference "MX27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Small")
+		(at 104.14 93.98 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "344c6c5f-ce84-4c6c-b823-9fab4dba5f0f")
+		(property "Reference" "D47"
+			(at 106.68 92.7099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D_Small"
+			(at 106.68 95.2499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 104.14 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 104.14 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode, small symbol"
+			(at 104.14 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 104.14 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 104.14 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2e4aae67-b9fd-4ce1-9886-2a7970ada1f5")
+		)
+		(pin "2"
+			(uuid "6034de29-9c5b-49b3-9ad9-89bd4a193600")
+		)
+		(instances
+			(project "Keyboard"
+				(path "/4d291fcf-fdf2-46ba-aa57-60bc75f9cc32/21c10462-4c04-4e31-8492-80b8e198b101"
+					(reference "D47")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Small")
+		(at 78.74 76.2 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3482c2f6-d80a-494a-b1c1-cd039978ea65")
+		(property "Reference" "D32"
+			(at 81.28 74.9299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D_Small"
+			(at 81.28 77.4699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 78.74 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 78.74 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode, small symbol"
+			(at 78.74 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 78.74 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 78.74 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "74b8339d-b8ca-4bc9-b20b-43970413e19c")
+		)
+		(pin "2"
+			(uuid "764d4ddc-e85c-4829-98ed-0015c7fa5630")
+		)
+		(instances
+			(project "Keyboard"
+				(path "/4d291fcf-fdf2-46ba-aa57-60bc75f9cc32/21c10462-4c04-4e31-8492-80b8e198b101"
+					(reference "D32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Small")
+		(at 193.04 58.42 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "369d2ed6-957b-4843-a211-0de40cb08bd8")
+		(property "Reference" "D27"
+			(at 195.58 57.1499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D_Small"
+			(at 195.58 59.6899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 193.04 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 193.04 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode, small symbol"
+			(at 193.04 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 193.04 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 193.04 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e6938fd7-8e2e-4fd4-bdef-2c24e0cd030b")
+		)
+		(pin "2"
+			(uuid "91d7d73d-e379-4b0f-a494-bc23c0e6e388")
+		)
+		(instances
+			(project "Keyboard"
+				(path "/4d291fcf-fdf2-46ba-aa57-60bc75f9cc32/21c10462-4c04-4e31-8492-80b8e198b101"
+					(reference "D27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Small")
+		(at 78.74 111.76 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3709175a-5285-45b3-bf71-73c0f0042186")
+		(property "Reference" "D58"
+			(at 81.28 110.4899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D_Small"
+			(at 81.28 113.0299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 78.74 111.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 78.74 111.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode, small symbol"
+			(at 78.74 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 78.74 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 78.74 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "be5e744c-28c6-4c58-9f69-7bc6e3ff583f")
+		)
+		(pin "2"
+			(uuid "3bc3c8e7-1180-446f-81cd-ea235a1a6955")
+		)
+		(instances
+			(project "Keyboard"
+				(path "/4d291fcf-fdf2-46ba-aa57-60bc75f9cc32/21c10462-4c04-4e31-8492-80b8e198b101"
+					(reference "D58")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Small")
+		(at 66.04 58.42 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "38b1001c-bbb9-4cf6-b8c5-a3e820482380")
+		(property "Reference" "D17"
+			(at 68.58 57.1499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D_Small"
+			(at 68.58 59.6899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 66.04 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 66.04 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode, small symbol"
+			(at 66.04 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 66.04 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 66.04 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c93a7f9a-7077-45a4-965a-99bb0b68ab38")
+		)
+		(pin "2"
+			(uuid "2d28b6a2-69a8-4ec6-948c-3830f6d9ae05")
+		)
+		(instances
+			(project "Keyboard"
+				(path "/4d291fcf-fdf2-46ba-aa57-60bc75f9cc32/21c10462-4c04-4e31-8492-80b8e198b101"
+					(reference "D17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Small")
+		(at 193.04 76.2 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3900aa4f-f0fa-4ef7-b974-5f556b17567a")
+		(property "Reference" "D41"
+			(at 195.58 74.9299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D_Small"
+			(at 195.58 77.4699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 193.04 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 193.04 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode, small symbol"
+			(at 193.04 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 193.04 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 193.04 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e44280e0-c38e-4832-8a67-f6200d358224")
+		)
+		(pin "2"
+			(uuid "ca6640d7-d49f-49b1-a2cd-806ebf130198")
+		)
+		(instances
+			(project "Keyboard"
+				(path "/4d291fcf-fdf2-46ba-aa57-60bc75f9cc32/21c10462-4c04-4e31-8492-80b8e198b101"
+					(reference "D41")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Small")
+		(at 91.44 58.42 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "39c2f1d0-0566-444d-89e9-b4c86b1e2579")
+		(property "Reference" "D19"
+			(at 93.98 57.1499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D_Small"
+			(at 93.98 59.6899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 91.44 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 91.44 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode, small symbol"
+			(at 91.44 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 91.44 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 91.44 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8431a759-6673-4fa3-b58d-676addbb06cb")
+		)
+		(pin "2"
+			(uuid "1a8d54e8-0d77-48c4-b2f7-412ba93863bf")
+		)
+		(instances
+			(project "Keyboard"
+				(path "/4d291fcf-fdf2-46ba-aa57-60bc75f9cc32/21c10462-4c04-4e31-8492-80b8e198b101"
+					(reference "D19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "marbastlib-mx:MX_SW_solder")
+		(at 215.9 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3aa733c0-2038-48f6-9c6d-367e30aed4c2")
+		(property "Reference" "MX14"
+			(at 215.9 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MX_SW_solder"
+			(at 215.9 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "marbastlib-mx:SW_MX_1u"
+			(at 215.9 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 215.9 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 215.9 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d653034e-766c-4d29-aee4-ed4126acd56b")
+		)
+		(pin "2"
+			(uuid "02edbcaa-8980-46f2-a9e8-928755381a4f")
+		)
+		(instances
+			(project "Keyboard"
+				(path "/4d291fcf-fdf2-46ba-aa57-60bc75f9cc32/21c10462-4c04-4e31-8492-80b8e198b101"
+					(reference "MX14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "marbastlib-mx:MX_SW_solder")
+		(at 63.5 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3b21b090-b8ee-41de-8517-402844f605eb")
+		(property "Reference" "MX44"
+			(at 63.5 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MX_SW_solder"
+			(at 63.5 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "marbastlib-mx:SW_MX_1u"
+			(at 63.5 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 63.5 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 63.5 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3bcdb4b7-d440-48ec-9d8c-d6ae08c7f29f")
+		)
+		(pin "2"
+			(uuid "bbdd75dd-4700-4d6f-8dbb-8af8aac7f9c7")
+		)
+		(instances
+			(project "Keyboard"
+				(path "/4d291fcf-fdf2-46ba-aa57-60bc75f9cc32/21c10462-4c04-4e31-8492-80b8e198b101"
+					(reference "MX44")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Small")
+		(at 218.44 58.42 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3c655a98-b6b8-4df6-8b8e-839f3ced2936")
+		(property "Reference" "D29"
+			(at 220.98 57.1499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D_Small"
+			(at 220.98 59.6899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 218.44 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 218.44 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode, small symbol"
+			(at 218.44 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 218.44 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 218.44 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ddb0be9c-e1a9-48fd-88c1-76a0488d9b31")
+		)
+		(pin "2"
+			(uuid "4a6c7c8f-3e7f-433b-b8f8-f70415409551")
+		)
+		(instances
+			(project "Keyboard"
+				(path "/4d291fcf-fdf2-46ba-aa57-60bc75f9cc32/21c10462-4c04-4e31-8492-80b8e198b101"
+					(reference "D29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Small")
+		(at 66.04 76.2 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3f0e670e-037b-41fe-aa1d-42eeecb23c66")
+		(property "Reference" "D31"
+			(at 68.58 74.9299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D_Small"
+			(at 68.58 77.4699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 66.04 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 66.04 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode, small symbol"
+			(at 66.04 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 66.04 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 66.04 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3d3349a4-e82e-47ac-9164-bfff18e521bb")
+		)
+		(pin "2"
+			(uuid "ecf636f3-db09-442f-a809-1027a0f8dcb4")
+		)
+		(instances
+			(project "Keyboard"
+				(path "/4d291fcf-fdf2-46ba-aa57-60bc75f9cc32/21c10462-4c04-4e31-8492-80b8e198b101"
+					(reference "D31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "marbastlib-mx:MX_SW_solder")
+		(at 152.4 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "41620421-c3e9-467d-8c4b-33bcd2ca0d60")
+		(property "Reference" "MX38"
+			(at 152.4 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MX_SW_solder"
+			(at 152.4 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "marbastlib-mx:SW_MX_1u"
+			(at 152.4 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 152.4 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 152.4 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "94e215d5-b406-41c7-bcc0-aca3946e7367")
+		)
+		(pin "2"
+			(uuid "9c30a72f-7264-4e2c-b203-f2b4dcff939d")
+		)
+		(instances
+			(project "Keyboard"
+				(path "/4d291fcf-fdf2-46ba-aa57-60bc75f9cc32/21c10462-4c04-4e31-8492-80b8e198b101"
+					(reference "MX38")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "marbastlib-mx:MX_SW_solder")
+		(at 114.3 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4508b052-b76e-4e37-9ad7-ca8e1d66e12a")
+		(property "Reference" "MX48"
+			(at 114.3 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MX_SW_solder"
+			(at 114.3 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "marbastlib-mx:SW_MX_1u"
+			(at 114.3 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 114.3 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 114.3 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2e78423b-3fa9-4661-9e6c-7971788a5a4e")
+		)
+		(pin "2"
+			(uuid "7270907b-4e4f-4a65-9ea4-853f94adcb7d")
+		)
+		(instances
+			(project "Keyboard"
+				(path "/4d291fcf-fdf2-46ba-aa57-60bc75f9cc32/21c10462-4c04-4e31-8492-80b8e198b101"
+					(reference "MX48")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "marbastlib-mx:MX_stab")
+		(at 113.03 119.38 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "49c6eda5-9078-4325-9176-83786419644c")
+		(property "Reference" "S1"
+			(at 119.38 117.9829 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MX_stab"
+			(at 119.38 120.5229 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "marbastlib-mx:STAB_MX_6u"
+			(at 113.03 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 113.03 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Cherry MX-style stabilizer"
+			(at 113.03 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "Keyboard"
+				(path "/4d291fcf-fdf2-46ba-aa57-60bc75f9cc32/21c10462-4c04-4e31-8492-80b8e198b101"
+					(reference "S1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Small")
+		(at 118.11 111.76 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4b6e2c07-9224-45ee-9594-84be8376bd1a")
+		(property "Reference" "D59"
+			(at 120.65 110.4899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D_Small"
+			(at 120.65 113.0299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 118.11 111.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 118.11 111.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode, small symbol"
+			(at 118.11 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 118.11 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 118.11 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5b811564-56ff-4961-bfc9-611b8bfa83d1")
+		)
+		(pin "2"
+			(uuid "64b29629-6efd-497b-a83d-a59d27c27852")
+		)
+		(instances
+			(project "Keyboard"
+				(path "/4d291fcf-fdf2-46ba-aa57-60bc75f9cc32/21c10462-4c04-4e31-8492-80b8e198b101"
+					(reference "D59")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "marbastlib-mx:MX_SW_solder")
+		(at 177.8 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4bd41aa3-7b5a-41f7-8fa6-954022b650bd")
+		(property "Reference" "MX53"
+			(at 177.8 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MX_SW_solder"
+			(at 177.8 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "marbastlib-mx:SW_MX_1u"
+			(at 177.8 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 177.8 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 177.8 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "16bbda57-698a-4078-b5d0-c1526bbb797e")
+		)
+		(pin "2"
+			(uuid "12ec390b-3d75-4afe-8cce-0feca0ab0ed1")
+		)
+		(instances
+			(project "Keyboard"
+				(path "/4d291fcf-fdf2-46ba-aa57-60bc75f9cc32/21c10462-4c04-4e31-8492-80b8e198b101"
+					(reference "MX53")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "marbastlib-mx:MX_SW_solder")
+		(at 101.6 53.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4c267b0f-86cc-4da4-a312-5415cc51a3b5")
+		(property "Reference" "MX20"
+			(at 101.6 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MX_SW_solder"
+			(at 101.6 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "marbastlib-mx:SW_MX_1u"
+			(at 101.6 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 101.6 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 101.6 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5040976b-ec0c-4b5f-98f7-a891141f9e83")
+		)
+		(pin "2"
+			(uuid "c8ed47c9-913e-4193-a2b2-1ac014176c57")
+		)
+		(instances
+			(project "Keyboard"
+				(path "/4d291fcf-fdf2-46ba-aa57-60bc75f9cc32/21c10462-4c04-4e31-8492-80b8e198b101"
+					(reference "MX20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "marbastlib-mx:MX_SW_solder")
+		(at 127 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4e7df012-35d7-4155-9067-3971dcc48dcf")
+		(property "Reference" "MX36"
+			(at 127 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MX_SW_solder"
+			(at 127 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "marbastlib-mx:SW_MX_1u"
+			(at 127 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 127 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 127 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1cdb8243-b6b9-4dad-9f46-ab07fc0faddc")
+		)
+		(pin "2"
+			(uuid "c14e0a43-e006-4337-9109-73b9b4acf00d")
+		)
+		(instances
+			(project "Keyboard"
+				(path "/4d291fcf-fdf2-46ba-aa57-60bc75f9cc32/21c10462-4c04-4e31-8492-80b8e198b101"
+					(reference "MX36")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Small")
+		(at 154.94 76.2 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5034b1b9-135e-425b-ad3d-6e304bc50508")
+		(property "Reference" "D38"
+			(at 157.48 74.9299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D_Small"
+			(at 157.48 77.4699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 154.94 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 154.94 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode, small symbol"
+			(at 154.94 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 154.94 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 154.94 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2505ee66-a857-49cc-bc99-f16b9ddbe2d8")
+		)
+		(pin "2"
+			(uuid "09ba6674-3093-4e89-812a-cf8b5a0941ba")
+		)
+		(instances
+			(project "Keyboard"
+				(path "/4d291fcf-fdf2-46ba-aa57-60bc75f9cc32/21c10462-4c04-4e31-8492-80b8e198b101"
+					(reference "D38")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Small")
+		(at 142.24 93.98 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5374f3c8-40b3-442f-a67f-b4b710e75737")
+		(property "Reference" "D50"
+			(at 144.78 92.7099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D_Small"
+			(at 144.78 95.2499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 142.24 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 142.24 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode, small symbol"
+			(at 142.24 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 142.24 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 142.24 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "72914407-f8ae-4681-ba98-f3c625be06e1")
+		)
+		(pin "2"
+			(uuid "f9cc1b49-fda2-41cc-a511-d45e737eab1e")
+		)
+		(instances
+			(project "Keyboard"
+				(path "/4d291fcf-fdf2-46ba-aa57-60bc75f9cc32/21c10462-4c04-4e31-8492-80b8e198b101"
+					(reference "D50")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Small")
+		(at 142.24 58.42 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "56bacbe4-fef6-4221-8988-c16d19338e02")
+		(property "Reference" "D23"
+			(at 144.78 57.1499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D_Small"
+			(at 144.78 59.6899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 142.24 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 142.24 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode, small symbol"
+			(at 142.24 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 142.24 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 142.24 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d9c6d063-0309-4d97-bfdd-ec67ae3e524b")
+		)
+		(pin "2"
+			(uuid "6cb4b6a1-d861-4458-8076-4dc4150dd1d6")
+		)
+		(instances
+			(project "Keyboard"
+				(path "/4d291fcf-fdf2-46ba-aa57-60bc75f9cc32/21c10462-4c04-4e31-8492-80b8e198b101"
+					(reference "D23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Small")
+		(at 154.94 93.98 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5a5757f6-2aef-4c2c-be30-ab9919948e64")
+		(property "Reference" "D51"
+			(at 157.48 92.7099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D_Small"
+			(at 157.48 95.2499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 154.94 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 154.94 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode, small symbol"
+			(at 154.94 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 154.94 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 154.94 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "793fbf6b-6a62-4ad8-bc62-6bd81c76b757")
+		)
+		(pin "2"
+			(uuid "6d026b1d-389f-47f3-b4ef-2fc07a42db87")
+		)
+		(instances
+			(project "Keyboard"
+				(path "/4d291fcf-fdf2-46ba-aa57-60bc75f9cc32/21c10462-4c04-4e31-8492-80b8e198b101"
+					(reference "D51")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "marbastlib-mx:MX_SW_solder")
+		(at 63.5 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5cdcbafd-672a-4999-b361-801b4294f950")
+		(property "Reference" "MX2"
+			(at 63.5 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MX_SW_solder"
+			(at 63.5 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "marbastlib-mx:SW_MX_1u"
+			(at 63.5 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 63.5 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 63.5 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c8255f1b-cbb1-4071-8148-58a0e10e6827")
+		)
+		(pin "2"
+			(uuid "0051b9c0-3dc7-4ef5-a96c-87d7fa4a86e0")
+		)
+		(instances
+			(project "Keyboard"
+				(path "/4d291fcf-fdf2-46ba-aa57-60bc75f9cc32/21c10462-4c04-4e31-8492-80b8e198b101"
+					(reference "MX2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Small")
+		(at 167.64 93.98 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "602da318-fece-4bc2-989e-9273df541686")
+		(property "Reference" "D52"
+			(at 170.18 92.7099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D_Small"
+			(at 170.18 95.2499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 167.64 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 167.64 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode, small symbol"
+			(at 167.64 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 167.64 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 167.64 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "72598552-670f-4a2a-bae8-4eaeeb6df442")
+		)
+		(pin "2"
+			(uuid "3dad41dc-a6c9-40fa-bd52-841c2b8e3424")
+		)
+		(instances
+			(project "Keyboard"
+				(path "/4d291fcf-fdf2-46ba-aa57-60bc75f9cc32/21c10462-4c04-4e31-8492-80b8e198b101"
+					(reference "D52")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "marbastlib-mx:MX_SW_solder")
+		(at 165.1 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "60cb078e-d99d-4e07-b32d-8e51df76df82")
+		(property "Reference" "MX60"
+			(at 165.1 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MX_SW_solder"
+			(at 165.1 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "marbastlib-mx:SW_MX_1u"
+			(at 165.1 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 165.1 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 165.1 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "38f62d58-b2aa-4e61-a392-bfcd880fd196")
+		)
+		(pin "2"
+			(uuid "ba0e7778-eef9-482a-9815-030a6a3eb4a8")
+		)
+		(instances
+			(project "Keyboard"
+				(path "/4d291fcf-fdf2-46ba-aa57-60bc75f9cc32/21c10462-4c04-4e31-8492-80b8e198b101"
+					(reference "MX60")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "marbastlib-mx:MX_SW_solder")
+		(at 139.7 53.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "626b86da-1691-4c35-b304-b9e00e05fcd5")
+		(property "Reference" "MX23"
+			(at 139.7 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MX_SW_solder"
+			(at 139.7 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "marbastlib-mx:SW_MX_1u"
+			(at 139.7 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 139.7 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 139.7 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fbe964ea-1d78-416e-a3eb-cc3ca938e047")
+		)
+		(pin "2"
+			(uuid "6638eb4d-a1db-4e6e-84f3-8556e819a4cb")
+		)
+		(instances
+			(project "Keyboard"
+				(path "/4d291fcf-fdf2-46ba-aa57-60bc75f9cc32/21c10462-4c04-4e31-8492-80b8e198b101"
+					(reference "MX23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "marbastlib-mx:MX_SW_solder")
+		(at 203.2 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "62c23d5f-dbfb-42b5-bf1e-4cc67cdee0cb")
+		(property "Reference" "MX13"
+			(at 203.2 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MX_SW_solder"
+			(at 203.2 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "marbastlib-mx:SW_MX_1u"
+			(at 203.2 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 203.2 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 203.2 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "86e2ccae-8582-4ea7-8983-f9ea6f723598")
+		)
+		(pin "2"
+			(uuid "fb6eb8ea-0cd9-4f11-93e1-4ed9f817a47c")
+		)
+		(instances
+			(project "Keyboard"
+				(path "/4d291fcf-fdf2-46ba-aa57-60bc75f9cc32/21c10462-4c04-4e31-8492-80b8e198b101"
+					(reference "MX13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Small")
+		(at 180.34 111.76 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "62e7fbd0-e750-4d84-9f54-ad15d54a502f")
+		(property "Reference" "D61"
+			(at 182.88 110.4899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D_Small"
+			(at 182.88 113.0299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 180.34 111.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 180.34 111.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode, small symbol"
+			(at 180.34 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 180.34 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 180.34 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2ff97f6e-a389-4e26-b0b7-43dd43a2163b")
+		)
+		(pin "2"
+			(uuid "d71d1e8e-6e08-432c-8861-e940cead7cb5")
+		)
+		(instances
+			(project "Keyboard"
+				(path "/4d291fcf-fdf2-46ba-aa57-60bc75f9cc32/21c10462-4c04-4e31-8492-80b8e198b101"
+					(reference "D61")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "marbastlib-mx:MX_SW_solder")
+		(at 228.6 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "67d021ad-0c36-4ef1-a197-c38f93cace95")
+		(property "Reference" "MX55"
+			(at 228.6 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MX_SW_solder"
+			(at 228.6 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "marbastlib-mx:SW_MX_1u"
+			(at 228.6 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 228.6 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 228.6 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1c074226-52c6-4573-b45b-3fa7b82dd46e")
+		)
+		(pin "2"
+			(uuid "b4773b29-b440-49eb-9006-f808a97336c2")
+		)
+		(instances
+			(project "Keyboard"
+				(path "/4d291fcf-fdf2-46ba-aa57-60bc75f9cc32/21c10462-4c04-4e31-8492-80b8e198b101"
+					(reference "MX55")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "marbastlib-mx:MX_SW_solder")
+		(at 76.2 53.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6e1c9cbf-fe01-41e6-a0ba-373af76bdd38")
+		(property "Reference" "MX18"
+			(at 76.2 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MX_SW_solder"
+			(at 76.2 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "marbastlib-mx:SW_MX_1u"
+			(at 76.2 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 76.2 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 76.2 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "410c3cad-4f23-46d8-abaa-399675c3bdf9")
+		)
+		(pin "2"
+			(uuid "ba85df14-cb57-4964-b6b8-2bb8db261784")
+		)
+		(instances
+			(project "Keyboard"
+				(path "/4d291fcf-fdf2-46ba-aa57-60bc75f9cc32/21c10462-4c04-4e31-8492-80b8e198b101"
+					(reference "MX18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "marbastlib-mx:MX_SW_solder")
+		(at 152.4 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "713ada4b-5971-4948-9762-1ec4de934bea")
+		(property "Reference" "MX51"
+			(at 152.4 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MX_SW_solder"
+			(at 152.4 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "marbastlib-mx:SW_MX_1u"
+			(at 152.4 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 152.4 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 152.4 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5327e089-1e10-4851-87f2-49d928508b07")
+		)
+		(pin "2"
+			(uuid "d1dd170f-72bd-414d-9d18-a3b3c74a18b7")
+		)
+		(instances
+			(project "Keyboard"
+				(path "/4d291fcf-fdf2-46ba-aa57-60bc75f9cc32/21c10462-4c04-4e31-8492-80b8e198b101"
+					(reference "MX51")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "marbastlib-mx:MX_SW_solder")
+		(at 177.8 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7168d39a-5fae-4297-b252-b1130b7012ac")
+		(property "Reference" "MX11"
+			(at 177.8 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MX_SW_solder"
+			(at 177.8 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "marbastlib-mx:SW_MX_1u"
+			(at 177.8 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 177.8 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 177.8 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "04a2bdea-bfb7-467b-bb5e-62684e6f9bb1")
+		)
+		(pin "2"
+			(uuid "d8a2bfdc-6d09-4c10-8aec-c611e7a4549c")
+		)
+		(instances
+			(project "Keyboard"
+				(path "/4d291fcf-fdf2-46ba-aa57-60bc75f9cc32/21c10462-4c04-4e31-8492-80b8e198b101"
+					(reference "MX11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Small")
+		(at 104.14 40.64 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7239bb5b-3d96-4e98-aa63-c1b5ecda2217")
+		(property "Reference" "D5"
+			(at 106.68 39.3699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D_Small"
+			(at 106.68 41.9099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 104.14 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 104.14 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode, small symbol"
+			(at 104.14 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 104.14 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 104.14 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0b8f873b-c0e3-4762-9431-0315a9fc2155")
+		)
+		(pin "2"
+			(uuid "16f9b832-d77d-443f-862b-a057689c77ac")
+		)
+		(instances
+			(project "Keyboard"
+				(path "/4d291fcf-fdf2-46ba-aa57-60bc75f9cc32/21c10462-4c04-4e31-8492-80b8e198b101"
+					(reference "D5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Small")
+		(at 66.04 111.76 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "735a66e7-05de-4b3a-805f-6ab16155c78c")
+		(property "Reference" "D57"
+			(at 68.58 110.4899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D_Small"
+			(at 68.58 113.0299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 66.04 111.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 66.04 111.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode, small symbol"
+			(at 66.04 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 66.04 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 66.04 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4fda3dbb-912b-4d4d-bfdc-d0e47a89238c")
+		)
+		(pin "2"
+			(uuid "eced7957-25fe-45be-b40f-f8542c860686")
+		)
+		(instances
+			(project "Keyboard"
+				(path "/4d291fcf-fdf2-46ba-aa57-60bc75f9cc32/21c10462-4c04-4e31-8492-80b8e198b101"
+					(reference "D57")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Small")
+		(at 154.94 58.42 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "769dd4a7-95f5-48f6-92d6-b022ba5e84af")
+		(property "Reference" "D24"
+			(at 157.48 57.1499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D_Small"
+			(at 157.48 59.6899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 154.94 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 154.94 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode, small symbol"
+			(at 154.94 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 154.94 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 154.94 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cb1a5643-346d-464f-97d2-a01cb689265e")
+		)
+		(pin "2"
+			(uuid "5d6e2f3d-1070-4b3d-9c81-56d3c20d3e54")
+		)
+		(instances
+			(project "Keyboard"
+				(path "/4d291fcf-fdf2-46ba-aa57-60bc75f9cc32/21c10462-4c04-4e31-8492-80b8e198b101"
+					(reference "D24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "marbastlib-mx:MX_SW_solder")
+		(at 215.9 53.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "78c69e41-66ff-4b5d-9f31-adc44e0b7554")
+		(property "Reference" "MX29"
+			(at 215.9 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MX_SW_solder"
+			(at 215.9 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "marbastlib-mx:SW_MX_1u"
+			(at 215.9 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 215.9 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 215.9 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "50fca7fb-8d2e-4936-8536-74c2e1fcd7c6")
+		)
+		(pin "2"
+			(uuid "b85b0a2c-3ebc-48d3-ae00-0079ab5bc7c7")
+		)
+		(instances
+			(project "Keyboard"
+				(path "/4d291fcf-fdf2-46ba-aa57-60bc75f9cc32/21c10462-4c04-4e31-8492-80b8e198b101"
+					(reference "MX29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "marbastlib-mx:MX_SW_solder")
+		(at 50.8 53.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7920db20-77ea-4655-be76-c0184b05270c")
+		(property "Reference" "MX16"
+			(at 50.8 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MX_SW_solder"
+			(at 50.8 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "marbastlib-mx:SW_MX_1u"
+			(at 50.8 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 50.8 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 50.8 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e24a22e6-370a-4647-aa29-5c9f92f32c2a")
+		)
+		(pin "2"
+			(uuid "68fd9754-17ef-4d80-bcad-b1d9125a95bd")
+		)
+		(instances
+			(project "Keyboard"
+				(path "/4d291fcf-fdf2-46ba-aa57-60bc75f9cc32/21c10462-4c04-4e31-8492-80b8e198b101"
+					(reference "MX16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "marbastlib-mx:MX_SW_solder")
+		(at 190.5 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7a194bd0-bf7a-4265-a36b-f64054d7baca")
+		(property "Reference" "MX41"
+			(at 190.5 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MX_SW_solder"
+			(at 190.5 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "marbastlib-mx:SW_MX_1u"
+			(at 190.5 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 190.5 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 190.5 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3e0e4187-4dd2-4945-8821-ef7daf73f3ee")
+		)
+		(pin "2"
+			(uuid "474550d4-89f4-4eb0-a6ac-8044fc372cee")
+		)
+		(instances
+			(project "Keyboard"
+				(path "/4d291fcf-fdf2-46ba-aa57-60bc75f9cc32/21c10462-4c04-4e31-8492-80b8e198b101"
+					(reference "MX41")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "marbastlib-mx:MX_SW_solder")
+		(at 127 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7caf5ec3-fded-466b-9c61-b4122e33759c")
+		(property "Reference" "MX7"
+			(at 127 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MX_SW_solder"
+			(at 127 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "marbastlib-mx:SW_MX_1u"
+			(at 127 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 127 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 127 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3a3d5957-5675-44ec-b5a9-e4c30c0cd9c8")
+		)
+		(pin "2"
+			(uuid "7bc20452-4138-44f0-9f6a-9734fd38eb44")
+		)
+		(instances
+			(project "Keyboard"
+				(path "/4d291fcf-fdf2-46ba-aa57-60bc75f9cc32/21c10462-4c04-4e31-8492-80b8e198b101"
+					(reference "MX7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "marbastlib-mx:MX_SW_solder")
+		(at 50.8 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7ebce4b1-8bfa-47f9-aeb0-028699b16b26")
+		(property "Reference" "MX43"
+			(at 50.8 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MX_SW_solder"
+			(at 50.8 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "marbastlib-mx:SW_MX_1u"
+			(at 50.8 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 50.8 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 50.8 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "08da4cb1-93f9-431b-accc-8ac00e5f41b7")
+		)
+		(pin "2"
+			(uuid "c44fb1e0-44ff-4192-ba19-abc322250d5f")
+		)
+		(instances
+			(project "Keyboard"
+				(path "/4d291fcf-fdf2-46ba-aa57-60bc75f9cc32/21c10462-4c04-4e31-8492-80b8e198b101"
+					(reference "MX43")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Small")
+		(at 180.34 40.64 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7f2717bb-c1a7-4c32-be47-56222b6d2818")
+		(property "Reference" "D11"
+			(at 182.88 39.3699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D_Small"
+			(at 182.88 41.9099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 180.34 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 180.34 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode, small symbol"
+			(at 180.34 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 180.34 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 180.34 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f63eabab-5592-4992-b5e1-972f4d2c38d8")
+		)
+		(pin "2"
+			(uuid "d4a0461d-f73f-479b-b80a-e8b38735f68b")
+		)
+		(instances
+			(project "Keyboard"
+				(path "/4d291fcf-fdf2-46ba-aa57-60bc75f9cc32/21c10462-4c04-4e31-8492-80b8e198b101"
+					(reference "D11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Small")
+		(at 104.14 58.42 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "85ccbe97-e848-4fc9-b553-8369e2f65382")
+		(property "Reference" "D20"
+			(at 106.68 57.1499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D_Small"
+			(at 106.68 59.6899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 104.14 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 104.14 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode, small symbol"
+			(at 104.14 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 104.14 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 104.14 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4d76f99f-5604-4e66-a8bb-13162d98e8ec")
+		)
+		(pin "2"
+			(uuid "91a66d01-9ea7-4e0c-923c-a0667dd51bf6")
+		)
+		(instances
+			(project "Keyboard"
+				(path "/4d291fcf-fdf2-46ba-aa57-60bc75f9cc32/21c10462-4c04-4e31-8492-80b8e198b101"
+					(reference "D20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Small")
+		(at 53.34 93.98 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "860a9e74-8eb6-4124-9401-d4e307e45f8f")
+		(property "Reference" "D43"
+			(at 55.88 92.7099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D_Small"
+			(at 55.88 95.2499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 53.34 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 53.34 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode, small symbol"
+			(at 53.34 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 53.34 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 53.34 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "669ae8a6-4166-4012-8961-029be3bd4127")
+		)
+		(pin "2"
+			(uuid "7e0e0ebe-b869-463e-96ff-9b90abe2812d")
+		)
+		(instances
+			(project "Keyboard"
+				(path "/4d291fcf-fdf2-46ba-aa57-60bc75f9cc32/21c10462-4c04-4e31-8492-80b8e198b101"
+					(reference "D43")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "marbastlib-mx:MX_SW_solder")
+		(at 165.1 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8618fc36-5b17-4cab-bcfc-5c8f6099b2a4")
+		(property "Reference" "MX10"
+			(at 165.1 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MX_SW_solder"
+			(at 165.1 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "marbastlib-mx:SW_MX_1u"
+			(at 165.1 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 165.1 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 165.1 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "633fceed-ce0d-44cd-9d27-8afd999c5693")
+		)
+		(pin "2"
+			(uuid "bf485751-2740-4cd3-8405-27d5bc0e2d17")
+		)
+		(instances
+			(project "Keyboard"
+				(path "/4d291fcf-fdf2-46ba-aa57-60bc75f9cc32/21c10462-4c04-4e31-8492-80b8e198b101"
+					(reference "MX10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "marbastlib-mx:MX_SW_solder")
+		(at 203.2 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "88ba6727-19ff-496c-84f3-12ec9cbed85b")
+		(property "Reference" "MX42"
+			(at 203.2 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MX_SW_solder"
+			(at 203.2 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "marbastlib-mx:SW_MX_1u"
+			(at 203.2 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 203.2 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 203.2 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cf9c29d7-4a6c-4350-882a-15dfe6ce697d")
+		)
+		(pin "2"
+			(uuid "33a2df94-12a2-41c5-8352-58963bf1d4b6")
+		)
+		(instances
+			(project "Keyboard"
+				(path "/4d291fcf-fdf2-46ba-aa57-60bc75f9cc32/21c10462-4c04-4e31-8492-80b8e198b101"
+					(reference "MX42")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "marbastlib-mx:MX_SW_solder")
+		(at 115.57 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "971d1fbc-4f78-4457-9daf-f35017543bf8")
+		(property "Reference" "MX59"
+			(at 115.57 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MX_SW_solder"
+			(at 115.57 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "marbastlib-mx:SW_MX_1u"
+			(at 115.57 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 115.57 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 115.57 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2315f80a-20b3-414d-ad7f-e9e061bf3383")
+		)
+		(pin "2"
+			(uuid "bb2e4d54-47e5-4b9e-ae85-286fcdfaf73d")
+		)
+		(instances
+			(project "Keyboard"
+				(path "/4d291fcf-fdf2-46ba-aa57-60bc75f9cc32/21c10462-4c04-4e31-8492-80b8e198b101"
+					(reference "MX59")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "marbastlib-mx:MX_SW_solder")
+		(at 88.9 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "97807480-ccec-47e5-acd9-1a6faf1fdfd4")
+		(property "Reference" "MX46"
+			(at 88.9 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MX_SW_solder"
+			(at 88.9 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "marbastlib-mx:SW_MX_1u"
+			(at 88.9 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 88.9 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 88.9 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e106fe00-4905-4b9f-a048-f066371c4d92")
+		)
+		(pin "2"
+			(uuid "19b6b333-30ae-4423-9835-db0954c5bcc9")
+		)
+		(instances
+			(project "Keyboard"
+				(path "/4d291fcf-fdf2-46ba-aa57-60bc75f9cc32/21c10462-4c04-4e31-8492-80b8e198b101"
+					(reference "MX46")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Small")
+		(at 180.34 58.42 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "99bb42f6-2bb3-44d5-bfbd-2532625f110f")
+		(property "Reference" "D26"
+			(at 182.88 57.1499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D_Small"
+			(at 182.88 59.6899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 180.34 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 180.34 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode, small symbol"
+			(at 180.34 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 180.34 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 180.34 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "35dd07dd-db01-4f88-b83f-862c864ac5ba")
+		)
+		(pin "2"
+			(uuid "4863dec9-213e-406f-8515-019fb331fed7")
+		)
+		(instances
+			(project "Keyboard"
+				(path "/4d291fcf-fdf2-46ba-aa57-60bc75f9cc32/21c10462-4c04-4e31-8492-80b8e198b101"
+					(reference "D26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Small")
+		(at 116.84 40.64 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9b089940-2439-4546-b05f-e103b8136cfa")
+		(property "Reference" "D6"
+			(at 119.38 39.3699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D_Small"
+			(at 119.38 41.9099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 116.84 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 116.84 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode, small symbol"
+			(at 116.84 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 116.84 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 116.84 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cacd070e-6928-414a-beed-779b451e1a60")
+		)
+		(pin "2"
+			(uuid "6c96801f-9790-4578-a156-2fccae841eb4")
+		)
+		(instances
+			(project "Keyboard"
+				(path "/4d291fcf-fdf2-46ba-aa57-60bc75f9cc32/21c10462-4c04-4e31-8492-80b8e198b101"
+					(reference "D6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "marbastlib-mx:MX_SW_solder")
+		(at 127 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9bfd797a-3a3a-4473-bbb1-3bcbd507a0b8")
+		(property "Reference" "MX49"
+			(at 127 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MX_SW_solder"
+			(at 127 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "marbastlib-mx:SW_MX_1u"
+			(at 127 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 127 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 127 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4ccc3803-def4-4f6a-9323-cf4e951725f3")
+		)
+		(pin "2"
+			(uuid "6b3ad3e5-8f54-46a5-8183-7fed8676545f")
+		)
+		(instances
+			(project "Keyboard"
+				(path "/4d291fcf-fdf2-46ba-aa57-60bc75f9cc32/21c10462-4c04-4e31-8492-80b8e198b101"
+					(reference "MX49")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Small")
+		(at 78.74 40.64 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9c80f7d6-58a0-4496-a1a8-86374b5852eb")
+		(property "Reference" "D3"
+			(at 81.28 39.3699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D_Small"
+			(at 81.28 41.9099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 78.74 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 78.74 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode, small symbol"
+			(at 78.74 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 78.74 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 78.74 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "59d76e80-3108-4a57-ae6f-c414b4f4e06f")
+		)
+		(pin "2"
+			(uuid "b88ecb17-19bf-4d46-a5f1-9bf3fe1393f0")
+		)
+		(instances
+			(project "Keyboard"
+				(path "/4d291fcf-fdf2-46ba-aa57-60bc75f9cc32/21c10462-4c04-4e31-8492-80b8e198b101"
+					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "marbastlib-mx:MX_SW_solder")
+		(at 63.5 53.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9f3b943e-2b9d-4d93-baaa-4ecc956e21ae")
+		(property "Reference" "MX17"
+			(at 63.5 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MX_SW_solder"
+			(at 63.5 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "marbastlib-mx:SW_MX_1u"
+			(at 63.5 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 63.5 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 63.5 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a7ec9c21-b388-47b3-b05d-7546d5a3d294")
+		)
+		(pin "2"
+			(uuid "c4210c06-4df0-4582-86c7-cdc7948550b8")
+		)
+		(instances
+			(project "Keyboard"
+				(path "/4d291fcf-fdf2-46ba-aa57-60bc75f9cc32/21c10462-4c04-4e31-8492-80b8e198b101"
+					(reference "MX17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Small")
+		(at 205.74 76.2 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9ff560cf-681d-4b4e-bb9d-6fce6180b4b4")
+		(property "Reference" "D42"
+			(at 208.28 74.9299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D_Small"
+			(at 208.28 77.4699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 205.74 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 205.74 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode, small symbol"
+			(at 205.74 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 205.74 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 205.74 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "35b9eaeb-670c-4d73-b00d-90f93dd59dd9")
+		)
+		(pin "2"
+			(uuid "1d93dab5-270d-49c3-80e5-6f352fb6efd2")
+		)
+		(instances
+			(project "Keyboard"
+				(path "/4d291fcf-fdf2-46ba-aa57-60bc75f9cc32/21c10462-4c04-4e31-8492-80b8e198b101"
+					(reference "D42")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "marbastlib-mx:MX_SW_solder")
+		(at 114.3 53.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a019b6d7-9511-47a7-a942-e39b798af140")
+		(property "Reference" "MX21"
+			(at 114.3 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MX_SW_solder"
+			(at 114.3 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "marbastlib-mx:SW_MX_1u"
+			(at 114.3 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 114.3 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 114.3 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "82b3bcc6-df74-4aad-824c-44fedcca6b89")
+		)
+		(pin "2"
+			(uuid "88204708-1a13-4f06-ad7d-399453767272")
+		)
+		(instances
+			(project "Keyboard"
+				(path "/4d291fcf-fdf2-46ba-aa57-60bc75f9cc32/21c10462-4c04-4e31-8492-80b8e198b101"
+					(reference "MX21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Small")
+		(at 180.34 76.2 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a554d8bb-5196-45c6-8803-4e9f4a115cfe")
+		(property "Reference" "D40"
+			(at 182.88 74.9299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D_Small"
+			(at 182.88 77.4699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 180.34 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 180.34 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode, small symbol"
+			(at 180.34 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 180.34 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 180.34 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b30ee10e-9bf5-4ebd-919a-84e80908d14f")
+		)
+		(pin "2"
+			(uuid "90560132-ae75-46fc-af9e-de796266fd24")
+		)
+		(instances
+			(project "Keyboard"
+				(path "/4d291fcf-fdf2-46ba-aa57-60bc75f9cc32/21c10462-4c04-4e31-8492-80b8e198b101"
+					(reference "D40")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "marbastlib-mx:MX_SW_solder")
+		(at 63.5 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a862f57d-43e9-40f0-9eef-96aaac97836d")
+		(property "Reference" "MX31"
+			(at 63.5 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MX_SW_solder"
+			(at 63.5 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "marbastlib-mx:SW_MX_1u"
+			(at 63.5 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 63.5 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 63.5 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2e699bfc-e6d4-4079-b753-9775c1adf3bc")
+		)
+		(pin "2"
+			(uuid "52972cda-69fb-4c99-9399-4caa7efd37a0")
+		)
+		(instances
+			(project "Keyboard"
+				(path "/4d291fcf-fdf2-46ba-aa57-60bc75f9cc32/21c10462-4c04-4e31-8492-80b8e198b101"
+					(reference "MX31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Small")
+		(at 91.44 93.98 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ab1554a6-c537-42d0-b1ab-1c1184b90010")
+		(property "Reference" "D46"
+			(at 93.98 92.7099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D_Small"
+			(at 93.98 95.2499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 91.44 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 91.44 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode, small symbol"
+			(at 91.44 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 91.44 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 91.44 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "77cff82b-53f8-441d-bd76-c871c38f8ef1")
+		)
+		(pin "2"
+			(uuid "6b40b162-c4cf-40db-a7f7-99238d866c77")
+		)
+		(instances
+			(project "Keyboard"
+				(path "/4d291fcf-fdf2-46ba-aa57-60bc75f9cc32/21c10462-4c04-4e31-8492-80b8e198b101"
+					(reference "D46")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Small")
+		(at 53.34 40.64 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ac64815d-1e0f-46c2-8bcd-ad4e2d8d0c35")
+		(property "Reference" "D1"
+			(at 55.88 39.3699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D_Small"
+			(at 55.88 41.9099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 53.34 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 53.34 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode, small symbol"
+			(at 53.34 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 53.34 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 53.34 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "459ca1c9-5823-44ed-a3ac-3557eafdd37d")
+		)
+		(pin "2"
+			(uuid "12954c5a-f447-4b91-9fbb-85449d4b5100")
+		)
+		(instances
+			(project ""
+				(path "/4d291fcf-fdf2-46ba-aa57-60bc75f9cc32/21c10462-4c04-4e31-8492-80b8e198b101"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Small")
+		(at 53.34 76.2 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "aedfda1f-c453-4c01-8cce-aeeb9eb21cac")
+		(property "Reference" "D30"
+			(at 55.88 74.9299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D_Small"
+			(at 55.88 77.4699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 53.34 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 53.34 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode, small symbol"
+			(at 53.34 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 53.34 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 53.34 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d4aace85-675d-460a-a761-279a1ce2491d")
+		)
+		(pin "2"
+			(uuid "4c17fdcb-4156-4711-90a9-a2af6604eb87")
+		)
+		(instances
+			(project "Keyboard"
+				(path "/4d291fcf-fdf2-46ba-aa57-60bc75f9cc32/21c10462-4c04-4e31-8492-80b8e198b101"
+					(reference "D30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "marbastlib-mx:MX_SW_solder")
+		(at 114.3 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b0285051-48c8-4dd2-8ad5-cac6c5c3e63a")
+		(property "Reference" "MX35"
+			(at 114.3 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MX_SW_solder"
+			(at 114.3 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "marbastlib-mx:SW_MX_1u"
+			(at 114.3 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 114.3 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 114.3 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "42e3dcf3-767b-4498-905b-a259c1c7aa07")
+		)
+		(pin "2"
+			(uuid "30d23087-dca4-4d86-900e-b14f3ef991e1")
+		)
+		(instances
+			(project "Keyboard"
+				(path "/4d291fcf-fdf2-46ba-aa57-60bc75f9cc32/21c10462-4c04-4e31-8492-80b8e198b101"
+					(reference "MX35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "marbastlib-mx:MX_SW_solder")
+		(at 165.1 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b0730803-0e19-4c13-90c4-96316d74cd4c")
+		(property "Reference" "MX52"
+			(at 165.1 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MX_SW_solder"
+			(at 165.1 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "marbastlib-mx:SW_MX_1u"
+			(at 165.1 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 165.1 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 165.1 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "18847315-0730-4c4f-b583-55ec16380091")
+		)
+		(pin "2"
+			(uuid "935be94c-1b39-4afd-a5e5-ce2de346eccc")
+		)
+		(instances
+			(project "Keyboard"
+				(path "/4d291fcf-fdf2-46ba-aa57-60bc75f9cc32/21c10462-4c04-4e31-8492-80b8e198b101"
+					(reference "MX52")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "marbastlib-mx:MX_SW_solder")
+		(at 88.9 53.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b23504b4-5a4c-4bef-8d28-f6a75e50daef")
+		(property "Reference" "MX19"
+			(at 88.9 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MX_SW_solder"
+			(at 88.9 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "marbastlib-mx:SW_MX_1u"
+			(at 88.9 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 88.9 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 88.9 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5d65c37c-3b67-4a91-b85e-47ebe5a1f285")
+		)
+		(pin "2"
+			(uuid "7b561016-8b7a-48b4-afa6-01f69ff80e42")
+		)
+		(instances
+			(project "Keyboard"
+				(path "/4d291fcf-fdf2-46ba-aa57-60bc75f9cc32/21c10462-4c04-4e31-8492-80b8e198b101"
+					(reference "MX19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Small")
+		(at 66.04 93.98 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b394036e-4d58-4f08-8827-6c2b3fd671e1")
+		(property "Reference" "D44"
+			(at 68.58 92.7099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D_Small"
+			(at 68.58 95.2499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 66.04 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 66.04 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode, small symbol"
+			(at 66.04 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 66.04 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 66.04 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "777e9f50-1fc4-4406-ba37-afad66823bde")
+		)
+		(pin "2"
+			(uuid "28bd8e66-4829-4b0c-a05d-dd2eb6785b2c")
+		)
+		(instances
+			(project "Keyboard"
+				(path "/4d291fcf-fdf2-46ba-aa57-60bc75f9cc32/21c10462-4c04-4e31-8492-80b8e198b101"
+					(reference "D44")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "marbastlib-mx:MX_SW_solder")
+		(at 139.7 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b44189c8-086a-4449-b398-4188ad3f2699")
+		(property "Reference" "MX8"
+			(at 139.7 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MX_SW_solder"
+			(at 139.7 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "marbastlib-mx:SW_MX_1u"
+			(at 139.7 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 139.7 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 139.7 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "023cf30c-2db4-4f9a-8e30-2a9155e7604e")
+		)
+		(pin "2"
+			(uuid "552e7ff9-19fa-4b77-b29a-4e5da9dea395")
+		)
+		(instances
+			(project "Keyboard"
+				(path "/4d291fcf-fdf2-46ba-aa57-60bc75f9cc32/21c10462-4c04-4e31-8492-80b8e198b101"
+					(reference "MX8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Small")
+		(at 142.24 76.2 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b76cbc70-4c66-4843-a20e-49205455b658")
+		(property "Reference" "D37"
+			(at 144.78 74.9299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D_Small"
+			(at 144.78 77.4699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 142.24 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 142.24 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode, small symbol"
+			(at 142.24 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 142.24 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 142.24 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d6615fa1-7fc8-4e10-8249-a377477df771")
+		)
+		(pin "2"
+			(uuid "9088f5a6-ab37-4544-9302-4c7ad38db75f")
+		)
+		(instances
+			(project "Keyboard"
+				(path "/4d291fcf-fdf2-46ba-aa57-60bc75f9cc32/21c10462-4c04-4e31-8492-80b8e198b101"
+					(reference "D37")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "marbastlib-mx:MX_SW_solder")
+		(at 88.9 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b7ce39b7-d8af-4014-b5b9-7342c3e1c020")
+		(property "Reference" "MX33"
+			(at 88.9 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MX_SW_solder"
+			(at 88.9 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "marbastlib-mx:SW_MX_1u"
+			(at 88.9 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 88.9 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 88.9 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "10441492-bf20-4d44-b058-c64114c3a5f0")
+		)
+		(pin "2"
+			(uuid "54c36eb4-3fee-49a9-9fb9-141bb557b5f6")
+		)
+		(instances
+			(project "Keyboard"
+				(path "/4d291fcf-fdf2-46ba-aa57-60bc75f9cc32/21c10462-4c04-4e31-8492-80b8e198b101"
+					(reference "MX33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "marbastlib-mx:MX_SW_solder")
+		(at 139.7 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b85c5b2e-a455-4ab4-8dca-3b13c718b9bb")
+		(property "Reference" "MX37"
+			(at 139.7 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MX_SW_solder"
+			(at 139.7 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "marbastlib-mx:SW_MX_1u"
+			(at 139.7 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 139.7 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 139.7 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "347573ad-4858-4843-b5d3-f25c14ec7e4f")
+		)
+		(pin "2"
+			(uuid "bc8d3945-e8ce-4f0b-916a-737708790e02")
+		)
+		(instances
+			(project "Keyboard"
+				(path "/4d291fcf-fdf2-46ba-aa57-60bc75f9cc32/21c10462-4c04-4e31-8492-80b8e198b101"
+					(reference "MX37")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Small")
+		(at 167.64 40.64 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b9a6a053-9638-4a2e-8486-1cfaab316148")
+		(property "Reference" "D10"
+			(at 170.18 39.3699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D_Small"
+			(at 170.18 41.9099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 167.64 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 167.64 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode, small symbol"
+			(at 167.64 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 167.64 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 167.64 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e5d0f5ec-014e-408e-84ec-bca027398450")
+		)
+		(pin "2"
+			(uuid "b9a15669-0c91-4a75-ae93-66330e43ca68")
+		)
+		(instances
+			(project "Keyboard"
+				(path "/4d291fcf-fdf2-46ba-aa57-60bc75f9cc32/21c10462-4c04-4e31-8492-80b8e198b101"
+					(reference "D10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Small")
+		(at 167.64 58.42 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bd577b77-a076-4390-8e66-50ab0063ec68")
+		(property "Reference" "D25"
+			(at 170.18 57.1499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D_Small"
+			(at 170.18 59.6899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 167.64 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 167.64 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode, small symbol"
+			(at 167.64 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 167.64 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 167.64 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6f263ace-7f48-47d6-b998-8ed2d4304fa9")
+		)
+		(pin "2"
+			(uuid "c461b661-0f62-474e-bee9-5f2639117b16")
+		)
+		(instances
+			(project "Keyboard"
+				(path "/4d291fcf-fdf2-46ba-aa57-60bc75f9cc32/21c10462-4c04-4e31-8492-80b8e198b101"
+					(reference "D25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Small")
+		(at 104.14 76.2 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bfb3e4de-8d86-4dd6-bd15-82b74bea6780")
+		(property "Reference" "D34"
+			(at 106.68 74.9299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D_Small"
+			(at 106.68 77.4699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 104.14 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 104.14 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode, small symbol"
+			(at 104.14 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 104.14 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 104.14 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e4025d0b-268f-4452-b1ca-55b27dd88df1")
+		)
+		(pin "2"
+			(uuid "cd670baf-4e70-4d8f-a8d0-b9b14d1bece0")
+		)
+		(instances
+			(project "Keyboard"
+				(path "/4d291fcf-fdf2-46ba-aa57-60bc75f9cc32/21c10462-4c04-4e31-8492-80b8e198b101"
+					(reference "D34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Small")
+		(at 129.54 58.42 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c02d038a-d72a-461b-bfaa-c49ebc4ea6c9")
+		(property "Reference" "D22"
+			(at 132.08 57.1499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D_Small"
+			(at 132.08 59.6899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 129.54 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 129.54 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode, small symbol"
+			(at 129.54 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 129.54 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 129.54 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "49518728-0a38-4d2b-894a-a0aef3cd0111")
+		)
+		(pin "2"
+			(uuid "ae689c84-7e1c-4c5e-a529-8fb3fe6012b2")
+		)
+		(instances
+			(project "Keyboard"
+				(path "/4d291fcf-fdf2-46ba-aa57-60bc75f9cc32/21c10462-4c04-4e31-8492-80b8e198b101"
+					(reference "D22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "marbastlib-mx:MX_SW_solder")
+		(at 76.2 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c1f3d62f-dea5-4fee-ae42-ecd794948283")
+		(property "Reference" "MX45"
+			(at 76.2 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MX_SW_solder"
+			(at 76.2 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "marbastlib-mx:SW_MX_1u"
+			(at 76.2 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 76.2 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 76.2 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d54ff028-c5a5-4779-a252-1fb3a24c4328")
+		)
+		(pin "2"
+			(uuid "c7fbbb66-be71-44b3-b790-68f61727f34d")
+		)
+		(instances
+			(project "Keyboard"
+				(path "/4d291fcf-fdf2-46ba-aa57-60bc75f9cc32/21c10462-4c04-4e31-8492-80b8e198b101"
+					(reference "MX45")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Small")
+		(at 129.54 76.2 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c2a0fbb0-5222-499f-8107-844b7baa884f")
+		(property "Reference" "D36"
+			(at 132.08 74.9299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D_Small"
+			(at 132.08 77.4699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 129.54 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 129.54 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode, small symbol"
+			(at 129.54 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 129.54 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 129.54 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e36cfdbc-1521-4030-b9ab-5c219fb067fe")
+		)
+		(pin "2"
+			(uuid "11d14f8d-9e2c-4246-91d0-3f400dae67dc")
+		)
+		(instances
+			(project "Keyboard"
+				(path "/4d291fcf-fdf2-46ba-aa57-60bc75f9cc32/21c10462-4c04-4e31-8492-80b8e198b101"
+					(reference "D36")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "marbastlib-mx:MX_SW_solder")
+		(at 203.2 53.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c2c34110-4337-4a09-b231-8898632721ce")
+		(property "Reference" "MX28"
+			(at 203.2 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MX_SW_solder"
+			(at 203.2 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "marbastlib-mx:SW_MX_1u"
+			(at 203.2 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 203.2 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 203.2 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "747f133f-a702-463f-90da-6421a9169810")
+		)
+		(pin "2"
+			(uuid "b3793cf6-9a43-4ed4-a494-81959dcc47cb")
+		)
+		(instances
+			(project "Keyboard"
+				(path "/4d291fcf-fdf2-46ba-aa57-60bc75f9cc32/21c10462-4c04-4e31-8492-80b8e198b101"
+					(reference "MX28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Small")
+		(at 193.04 40.64 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c31be853-96e1-4497-8cf1-075b2f3dec28")
+		(property "Reference" "D12"
+			(at 195.58 39.3699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D_Small"
+			(at 195.58 41.9099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 193.04 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 193.04 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode, small symbol"
+			(at 193.04 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 193.04 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 193.04 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "86e2e304-fa30-4038-9c5a-97efa224dc59")
+		)
+		(pin "2"
+			(uuid "130c9f6e-2dfb-4e23-829c-907a4bc980dc")
+		)
+		(instances
+			(project "Keyboard"
+				(path "/4d291fcf-fdf2-46ba-aa57-60bc75f9cc32/21c10462-4c04-4e31-8492-80b8e198b101"
+					(reference "D12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Small")
+		(at 91.44 76.2 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cb538828-27c5-4349-8b2c-4813dee76abd")
+		(property "Reference" "D33"
+			(at 93.98 74.9299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D_Small"
+			(at 93.98 77.4699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 91.44 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 91.44 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode, small symbol"
+			(at 91.44 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 91.44 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 91.44 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5887f642-b56b-4a05-a966-ae92052083c7")
+		)
+		(pin "2"
+			(uuid "fbaac16c-e258-406f-a2e2-8145150d2bd9")
+		)
+		(instances
+			(project "Keyboard"
+				(path "/4d291fcf-fdf2-46ba-aa57-60bc75f9cc32/21c10462-4c04-4e31-8492-80b8e198b101"
+					(reference "D33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Small")
+		(at 167.64 111.76 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cc2141bd-0843-4ea0-9b0c-140eba21083f")
+		(property "Reference" "D60"
+			(at 170.18 110.4899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D_Small"
+			(at 170.18 113.0299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 167.64 111.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 167.64 111.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode, small symbol"
+			(at 167.64 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 167.64 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 167.64 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0bb91614-8dd2-4c71-8169-56ceb234e82a")
+		)
+		(pin "2"
+			(uuid "60051408-06be-494b-8091-a0cd1ee0f48c")
+		)
+		(instances
+			(project "Keyboard"
+				(path "/4d291fcf-fdf2-46ba-aa57-60bc75f9cc32/21c10462-4c04-4e31-8492-80b8e198b101"
+					(reference "D60")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "marbastlib-mx:MX_SW_solder")
+		(at 63.5 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d4d49367-9c3b-4644-b7e2-e3da15f6e9a6")
+		(property "Reference" "MX57"
+			(at 63.5 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MX_SW_solder"
+			(at 63.5 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "marbastlib-mx:SW_MX_1u"
+			(at 63.5 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 63.5 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 63.5 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ab5f26da-4f3f-468b-a521-d05feb53346a")
+		)
+		(pin "2"
+			(uuid "ddfb7cfe-9b0a-474b-974c-8532c7b1676c")
+		)
+		(instances
+			(project "Keyboard"
+				(path "/4d291fcf-fdf2-46ba-aa57-60bc75f9cc32/21c10462-4c04-4e31-8492-80b8e198b101"
+					(reference "MX57")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "marbastlib-mx:MX_SW_solder")
+		(at 152.4 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d5404383-0d9f-4768-b9ed-579728bd409f")
+		(property "Reference" "MX9"
+			(at 152.4 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MX_SW_solder"
+			(at 152.4 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "marbastlib-mx:SW_MX_1u"
+			(at 152.4 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 152.4 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 152.4 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "eab69fe9-5a1a-4bff-bcf1-ef5b73b4ec44")
+		)
+		(pin "2"
+			(uuid "54068f96-dbf2-4a0e-8818-3e5c551d25a4")
+		)
+		(instances
+			(project "Keyboard"
+				(path "/4d291fcf-fdf2-46ba-aa57-60bc75f9cc32/21c10462-4c04-4e31-8492-80b8e198b101"
+					(reference "MX9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "marbastlib-mx:MX_SW_solder")
+		(at 190.5 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d5466772-095f-4905-b801-698d5d990b7b")
+		(property "Reference" "MX12"
+			(at 190.5 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MX_SW_solder"
+			(at 190.5 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "marbastlib-mx:SW_MX_1u"
+			(at 190.5 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 190.5 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 190.5 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1a1a897d-7e06-4754-b84b-43dda996582a")
+		)
+		(pin "2"
+			(uuid "68c224d3-9282-4df7-8373-be1d7d7e8126")
+		)
+		(instances
+			(project "Keyboard"
+				(path "/4d291fcf-fdf2-46ba-aa57-60bc75f9cc32/21c10462-4c04-4e31-8492-80b8e198b101"
+					(reference "MX12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "marbastlib-mx:MX_SW_solder")
+		(at 177.8 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d61a82eb-9905-4faf-8d37-53b8f326f6ae")
+		(property "Reference" "MX61"
+			(at 177.8 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MX_SW_solder"
+			(at 177.8 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "marbastlib-mx:SW_MX_1u"
+			(at 177.8 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 177.8 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 177.8 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bcefeda6-d0ce-44b8-ac54-18bedefe02a4")
+		)
+		(pin "2"
+			(uuid "32d78c9b-509e-4919-9aac-58ba963d10a6")
+		)
+		(instances
+			(project "Keyboard"
+				(path "/4d291fcf-fdf2-46ba-aa57-60bc75f9cc32/21c10462-4c04-4e31-8492-80b8e198b101"
+					(reference "MX61")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "marbastlib-mx:MX_SW_solder")
+		(at 101.6 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d9f3348f-d6db-42a9-9d91-129707185dba")
+		(property "Reference" "MX5"
+			(at 101.6 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MX_SW_solder"
+			(at 101.6 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "marbastlib-mx:SW_MX_1u"
+			(at 101.6 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 101.6 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 101.6 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5c9bb983-9aa0-4c6e-979b-f4caefb1c25a")
+		)
+		(pin "2"
+			(uuid "b415cae4-bb22-4f50-a071-d42c3c9f175c")
+		)
+		(instances
+			(project "Keyboard"
+				(path "/4d291fcf-fdf2-46ba-aa57-60bc75f9cc32/21c10462-4c04-4e31-8492-80b8e198b101"
+					(reference "MX5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "marbastlib-mx:MX_SW_solder")
+		(at 101.6 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ddc4ab4a-b170-46c8-8dc7-13701c7dfbe6")
+		(property "Reference" "MX34"
+			(at 101.6 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MX_SW_solder"
+			(at 101.6 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "marbastlib-mx:SW_MX_1u"
+			(at 101.6 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 101.6 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 101.6 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "04d74513-3a07-4c84-9289-7627d381d981")
+		)
+		(pin "2"
+			(uuid "73e9e05c-7a3f-4f7b-bd94-51cc1aede853")
+		)
+		(instances
+			(project "Keyboard"
+				(path "/4d291fcf-fdf2-46ba-aa57-60bc75f9cc32/21c10462-4c04-4e31-8492-80b8e198b101"
+					(reference "MX34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Small")
+		(at 78.74 93.98 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "de58d2f6-7450-4883-95ba-e38d3691f757")
+		(property "Reference" "D45"
+			(at 81.28 92.7099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D_Small"
+			(at 81.28 95.2499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 78.74 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 78.74 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode, small symbol"
+			(at 78.74 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 78.74 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 78.74 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5d6b61e0-bbe4-4fc5-9576-9e0b8c39f31f")
+		)
+		(pin "2"
+			(uuid "c011b472-cbaf-4dde-b173-053f8b2318c5")
+		)
+		(instances
+			(project "Keyboard"
+				(path "/4d291fcf-fdf2-46ba-aa57-60bc75f9cc32/21c10462-4c04-4e31-8492-80b8e198b101"
+					(reference "D45")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "marbastlib-mx:MX_SW_solder")
+		(at 139.7 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ed40cd4d-fb96-4575-b001-07f65734ebf4")
+		(property "Reference" "MX50"
+			(at 139.7 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MX_SW_solder"
+			(at 139.7 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "marbastlib-mx:SW_MX_1u"
+			(at 139.7 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 139.7 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 139.7 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ea0b61c4-7b33-4215-a970-e9715ad29809")
+		)
+		(pin "2"
+			(uuid "c1a08b18-8e0c-43c8-b0f2-47572b4c235c")
+		)
+		(instances
+			(project "Keyboard"
+				(path "/4d291fcf-fdf2-46ba-aa57-60bc75f9cc32/21c10462-4c04-4e31-8492-80b8e198b101"
+					(reference "MX50")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "marbastlib-mx:MX_SW_solder")
+		(at 50.8 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ef5241dd-c6ca-41bc-b09f-373bf5dfd082")
+		(property "Reference" "MX56"
+			(at 50.8 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MX_SW_solder"
+			(at 50.8 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "marbastlib-mx:SW_MX_1u"
+			(at 50.8 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 50.8 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 50.8 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5d1b0cf0-15e8-46fe-bdeb-dec15277da4d")
+		)
+		(pin "2"
+			(uuid "b0d0316f-3ec6-4d7d-b2e1-6da5736c7728")
+		)
+		(instances
+			(project "Keyboard"
+				(path "/4d291fcf-fdf2-46ba-aa57-60bc75f9cc32/21c10462-4c04-4e31-8492-80b8e198b101"
+					(reference "MX56")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Small")
+		(at 205.74 58.42 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "effa2f40-f609-4256-bf91-ed8307c04174")
+		(property "Reference" "D28"
+			(at 208.28 57.1499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D_Small"
+			(at 208.28 59.6899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 205.74 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 205.74 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode, small symbol"
+			(at 205.74 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 205.74 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 205.74 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c5c25521-00f4-4dc1-9cf1-c48e6a729509")
+		)
+		(pin "2"
+			(uuid "7d8c9d43-df78-4496-8b23-ff4f1434bd1c")
+		)
+		(instances
+			(project "Keyboard"
+				(path "/4d291fcf-fdf2-46ba-aa57-60bc75f9cc32/21c10462-4c04-4e31-8492-80b8e198b101"
+					(reference "D28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Small")
+		(at 116.84 93.98 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f3fe736f-62fa-4718-838e-7a9d965830b9")
+		(property "Reference" "D48"
+			(at 119.38 92.7099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D_Small"
+			(at 119.38 95.2499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 116.84 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 116.84 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode, small symbol"
+			(at 116.84 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 116.84 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 116.84 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7944e906-a66b-435d-aafc-9746ee7c22b8")
+		)
+		(pin "2"
+			(uuid "aaa87131-b238-4de5-a530-1c64cf91e303")
+		)
+		(instances
+			(project "Keyboard"
+				(path "/4d291fcf-fdf2-46ba-aa57-60bc75f9cc32/21c10462-4c04-4e31-8492-80b8e198b101"
+					(reference "D48")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Small")
+		(at 231.14 40.64 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f444de73-5364-4e21-8dc8-6225d29cb964")
+		(property "Reference" "D15"
+			(at 233.68 39.3699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D_Small"
+			(at 233.68 41.9099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 231.14 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 231.14 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode, small symbol"
+			(at 231.14 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 231.14 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 231.14 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b3858a4e-c10f-4ef4-b276-3f2cf26342c3")
+		)
+		(pin "2"
+			(uuid "110da7b7-0eb5-450f-b11d-e598addff0f3")
+		)
+		(instances
+			(project "Keyboard"
+				(path "/4d291fcf-fdf2-46ba-aa57-60bc75f9cc32/21c10462-4c04-4e31-8492-80b8e198b101"
+					(reference "D15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Small")
+		(at 66.04 40.64 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f57dec6f-6478-433c-a83e-199061fc55ea")
+		(property "Reference" "D2"
+			(at 68.58 39.3699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D_Small"
+			(at 68.58 41.9099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 66.04 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 66.04 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode, small symbol"
+			(at 66.04 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 66.04 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 66.04 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "02323c58-1aee-4e36-a7eb-e9ac51c08196")
+		)
+		(pin "2"
+			(uuid "f5483a23-2cdd-48cb-b03a-decf94bd7c88")
+		)
+		(instances
+			(project "Keyboard"
+				(path "/4d291fcf-fdf2-46ba-aa57-60bc75f9cc32/21c10462-4c04-4e31-8492-80b8e198b101"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "marbastlib-mx:MX_SW_solder")
+		(at 190.5 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f7171596-66f9-4c29-aec6-9d5c8b08d1d6")
+		(property "Reference" "MX54"
+			(at 190.5 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MX_SW_solder"
+			(at 190.5 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "marbastlib-mx:SW_MX_1u"
+			(at 190.5 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 190.5 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 190.5 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dbbb9040-795b-4e2b-877b-77422a984563")
+		)
+		(pin "2"
+			(uuid "42471acc-fe33-41ca-8d0b-c1a1883d01e2")
+		)
+		(instances
+			(project "Keyboard"
+				(path "/4d291fcf-fdf2-46ba-aa57-60bc75f9cc32/21c10462-4c04-4e31-8492-80b8e198b101"
+					(reference "MX54")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Small")
+		(at 167.64 76.2 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f7c84cd7-b51d-4f71-9477-af1dfc9652db")
+		(property "Reference" "D39"
+			(at 170.18 74.9299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D_Small"
+			(at 170.18 77.4699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 167.64 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 167.64 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode, small symbol"
+			(at 167.64 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 167.64 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 167.64 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4ea5cbc9-b358-42ea-808a-88e6195f82d1")
+		)
+		(pin "2"
+			(uuid "20b57a96-b775-4810-8e43-d03f4e7a9787")
+		)
+		(instances
+			(project "Keyboard"
+				(path "/4d291fcf-fdf2-46ba-aa57-60bc75f9cc32/21c10462-4c04-4e31-8492-80b8e198b101"
+					(reference "D39")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "marbastlib-mx:MX_SW_solder")
+		(at 152.4 53.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f9ed0aa7-f156-46c2-aa85-5d4d02fb9332")
+		(property "Reference" "MX24"
+			(at 152.4 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MX_SW_solder"
+			(at 152.4 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "marbastlib-mx:SW_MX_1u"
+			(at 152.4 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 152.4 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 152.4 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "929f80ce-afc7-4be9-a327-fb26fb535386")
+		)
+		(pin "2"
+			(uuid "bf71ee61-c229-4bb0-972c-6bd1d5c8c00a")
+		)
+		(instances
+			(project "Keyboard"
+				(path "/4d291fcf-fdf2-46ba-aa57-60bc75f9cc32/21c10462-4c04-4e31-8492-80b8e198b101"
+					(reference "MX24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "marbastlib-mx:MX_SW_solder")
+		(at 101.6 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fcac0505-c726-483d-a7c6-5ac7999b3631")
+		(property "Reference" "MX47"
+			(at 101.6 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MX_SW_solder"
+			(at 101.6 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "marbastlib-mx:SW_MX_1u"
+			(at 101.6 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 101.6 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 101.6 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d7dc708b-99ef-401e-b542-406bf5120f59")
+		)
+		(pin "2"
+			(uuid "8ba8c424-49b4-4001-bd0b-c73eaea6fde3")
+		)
+		(instances
+			(project "Keyboard"
+				(path "/4d291fcf-fdf2-46ba-aa57-60bc75f9cc32/21c10462-4c04-4e31-8492-80b8e198b101"
+					(reference "MX47")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "marbastlib-mx:MX_SW_solder")
+		(at 114.3 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fe6aa56a-7b11-48d3-81ac-547dc0537b4a")
+		(property "Reference" "MX6"
+			(at 114.3 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MX_SW_solder"
+			(at 114.3 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "marbastlib-mx:SW_MX_1u"
+			(at 114.3 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 114.3 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 114.3 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ffe0050e-4ab4-4fb8-b4fa-411bd3b5a17a")
+		)
+		(pin "2"
+			(uuid "f77f8e22-24f9-4803-a9fe-80bab66dc17b")
+		)
+		(instances
+			(project "Keyboard"
+				(path "/4d291fcf-fdf2-46ba-aa57-60bc75f9cc32/21c10462-4c04-4e31-8492-80b8e198b101"
+					(reference "MX6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Small")
+		(at 154.94 40.64 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fea65774-1474-46bc-9817-c0d1fe09cf42")
+		(property "Reference" "D9"
+			(at 157.48 39.3699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D_Small"
+			(at 157.48 41.9099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 154.94 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 154.94 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode, small symbol"
+			(at 154.94 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 154.94 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 154.94 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4e601d6b-db6f-4e90-839c-33874cd4289c")
+		)
+		(pin "2"
+			(uuid "a29e579a-e440-46fd-8783-92b25ecc37dc")
+		)
+		(instances
+			(project "Keyboard"
+				(path "/4d291fcf-fdf2-46ba-aa57-60bc75f9cc32/21c10462-4c04-4e31-8492-80b8e198b101"
+					(reference "D9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "marbastlib-mx:MX_stab")
+		(at 223.52 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ff80f0fd-af73-434f-b114-cf4a3eb0d9e3")
+		(property "Reference" "S2"
+			(at 229.87 72.2629 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MX_stab"
+			(at 229.87 74.8029 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "marbastlib-mx:STAB_MX_2.25u"
+			(at 223.52 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 223.52 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Cherry MX-style stabilizer"
+			(at 223.52 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "Keyboard"
+				(path "/4d291fcf-fdf2-46ba-aa57-60bc75f9cc32/21c10462-4c04-4e31-8492-80b8e198b101"
+					(reference "S2")
+					(unit 1)
+				)
+			)
+		)
+	)
+)
